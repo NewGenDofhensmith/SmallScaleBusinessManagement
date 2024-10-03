@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kmodule xmlns="http://www.drools.org/xsd/kmodule">
+    <kbase name="rules" packages="com.retail.retailManagement.RuleEngine.rules">
+        <ksession name="ksession-rules"/>
+        <resources>
+            <resource type="DRL" source="classpath:com/retail/retailManagement/RuleEngine/rules/inbound.drl"/>
+        </resources>
+    </kbase>
+</kmodule>
+

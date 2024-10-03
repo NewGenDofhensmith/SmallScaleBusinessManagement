@@ -1,0 +1,19 @@
+rule "recent trending products"
+when
+    System.out.println("condition executed");
+then
+    System.out.println("My Rule fired!");
+
+rule "heat seaon mangao rate is low"
+when
+   $product=$product.name=mango<20
+then
+   sendNotification($product)
+rules "incence tamarid has low purchase rate"
+ when
+    $product=$product.name=tmrid
+then
+     sendNotification($product)
+
+
+
